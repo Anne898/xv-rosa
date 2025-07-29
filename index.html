@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords"
+    content="¡Vamos a Celebrar!, ​Ya Solo Faltan..., ¡Acompáñanos a el día!, Te esperamos enNombre del salón, ¡No Faltes!​, Confirma tu asistencia">
+  <meta name="description" content="">
+  <title>Invitación</title>
+  <link rel="stylesheet" href="nicepage.css" media="screen">
+  <link rel="stylesheet" href="index.css" media="screen">
+  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+  <link rel="stylesheet" href="audio.css" media="screen">
+  <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+  <meta name="generator" content="Nicepage 7.10.10, nicepage.com">
+
+
+
+
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+  <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "web1",
+		"sameAs": []
+
+}</script>
+
+<script>
+  function updateCountdown() {
+    const endDate = new Date('2025-07-26T00:00:00'); // AAAA MM DD
+    const now = new Date();
+    const timeDifference = endDate - now;
+
+    if (timeDifference <= 0) {
+      document.querySelector('.countdown2').innerHTML = '<h1>¡El tiempo ha llegado!</h1>';
+      return;
+    }
+
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+    document.getElementById('days').innerText = `${days}`;
+    document.getElementById('hours').innerText = `${hours}`;
+    document.getElementById('minutes').innerText = `${minutes}`;
+    document.getElementById('seconds').innerText = `${seconds}`;
+  }
+
+  setInterval(updateCountdown, 1000);
+</script>
+
+
+  <meta name="theme-color" content="#3f62f1">
+  <meta property="og:title" content="Invitación">
+  <meta property="og:description" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Invitación">
+  <meta property="og:description" content="¡Vamos a celebrar!">
+  <meta property="og:image" itemprop="image" content="https://invitacion-muestra1.netlify.app/images/miniatura.png">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+
+<body data-home-page="Invitación.html" data-home-page-title="Invitación" data-path-to-root="./"
+  data-include-products="false" class="u-body u-xl-mode" data-lang="es">
+  <section
+    class="u-align-center u-clearfix u-container-align-center-lg u-container-align-center-md u-container-align-center-sm u-container-align-center-xl u-image u-section-1"
+    src="" data-image-width="1080" data-image-height="8000" id="sec-f8c3">
+    <div class="u-clearfix u-sheet u-sheet-1">
+
+
+ 
+      <a id="boton">
+        <audio id="MusicaFondo"></audio>
+        <a onclick="MusicaFondo()"
+      class="u-btn u-button-style u-custom-color-100 u-text-custom-color-100 u-btn-1">.<br>
+      </a>
+
+
+  
+
+    <!-- COUNTDOWN-->
+      <div class="u-countdown2 u-countdown-1">
+        <div class="u-countdown-wrapper u-spacing-20">
+
+          <div class="u-countdown-wrapper u-spacing-20 countColor">
+            <div class="u-countdown-item u-countdown-days u-spacing-10">
+              <div class="color u-countdown-counter u-countdown-counter-2" id="days">0</div>
+              <div class="u-countdown-label u-text-custom-color-50 u-countdown-label-2">DÍAS</div>
+            </div>
+            <div class="u-countdown-separator u-text-custom-color-50 u-countdown-separator-2">:</div>
+            <div class="u-countdown-hours u-countdown-item u-spacing-10">
+              <div class="color u-countdown-counter u-countdown-counter-3" id="hours">0</div>
+              <div class="u-countdown-label u-text-custom-color-50 u-countdown-label-3">Horas</div>
+            </div>
+            <div class="u-countdown-separator u-text-custom-color-50 u-countdown-separator-3">:</div>
+            <div class="u-countdown-item u-countdown-minutes u-spacing-10">
+              <div class="color u-countdown-counter u-countdown-counter-4" id="minutes">0</div>
+              <div class="u-countdown-label u-text-custom-color-50 u-countdown-label-4">Minutos</div>
+            </div>
+            <div class="u-countdown-separator u-text-custom-color-50 u-countdown-separator-4">:</div>
+            <div class="u-countdown-item u-countdown-seconds u-spacing-10">
+              <div class="color u-countdown-counter u-countdown-counter-5" id="seconds">0</div>
+              <div class="u-countdown-label u-text-custom-color-90 u-countdown-label-5">Segundos</div>
+            </div>
+          </div>
+
+          <div class="u-countdown-message u-hidden">
+            <p>Sorry, the time is up.</p>
+          </div>
+        </div>
+      </div>
+      <!-- COUNTDOWN-->
+
+      <a href="https://maps.app.goo.gl/GYz6Bfn7LVK74FTSA"
+        class="u-border-none u-btn u-btn-round u-button-style u-custom-color-99 u-radius u-btn-2" target="_blank"><span
+          class="u-file-icon u-icon u-text-white"><img src="images/1216895-b26c8bb7.png" alt=""></span>&nbsp;RECEPCIÓN
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=+526145364490&text=%C2%A1Hola%21+Muchas+gracias+por+la+invitaci%C3%B3n%2C+ah%C3%AD+estaremos%21%21+%F0%9F%A5%B3"
+        class="u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-custom-color-99 u-radius u-btn-3"><span
+          class="u-file-icon u-icon u-text-white"><img src="images/3781677-796374e8.png" alt=""></span>&nbsp;CONFIRMAR
+        ASISTENCIA
+      </a>
+      <a href="https://maps.app.goo.gl/AyeNSDpBwF1pq6vZ9"
+        class="u-border-none u-btn u-btn-round u-button-style u-custom-color-99 u-radius u-btn-4" target="_blank"><span
+          class="u-file-icon u-icon u-text-white"><img src="images/1216895-b26c8bb7.png" alt=""></span>&nbsp;MISA
+      </a>
+    </div>
+  </section>
+
+
+
+
+</body>
+
+
+
+<style>
+  .btnP {
+    margin-bottom: 450px;
+  }
+
+  .float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 130px;
+    right: 00px;
+    background-color: #ffffff;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+    margin: 0;
+  }
+
+  .countColor {
+    color: #ffffff;
+  }
+
+  .Colorbtn:hover {
+    background-color: #bd7076;
+
+  }
+</style>
+
+
+<script> let sound = true;
+  let fondo = document.getElementById("MusicaFondo");
+  function MusicaFondo() {
+      fondo.src = "images/cancion.mp3";
+      if (sound) {
+          fondo.volume = 0.7;
+          fondo.play();
+          sound = false;
+      }
+      else {
+          fondo.pause();
+          sound = true;
+      }
+  } </script>
+</html>
